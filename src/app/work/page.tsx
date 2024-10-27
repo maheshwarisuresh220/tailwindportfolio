@@ -8,7 +8,7 @@ export default function Work() {
         {/* First Card */}
         <div className="cursor-pointer transition-transform transform hover:scale-105 hover:shadow-[0_6px_20px_rgba(14,165,233,0.7)] shadow-[0_4px_15px_rgba(14,165,233,0.5)] h-[500px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[30%] rounded-[60px] p-6 mt-24">
           <Image
-            src="/IOT.PNG"
+            src="/iot2.jpg"
             alt="IoT"
             width={250}
             height={120}
@@ -51,7 +51,7 @@ export default function Work() {
         {/* Third Card */}
         <div className="cursor-pointer transition-transform transform hover:scale-105 hover:shadow-[0_6px_20px_rgba(14,165,233,0.7)] shadow-[0_4px_15px_rgba(14,165,233,0.5)] h-[500px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[30%] rounded-[60px] p-6 mt-24">
           <Image
-            src="/C1.PNG"
+            src="/cp1.jpg"
             alt="IoT3"
             width={250}
             height={120}

@@ -3,12 +3,12 @@ import { Mail, Facebook, Instagram, Linkedin, Github } from 'lucide-react';
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-sky-950 to-indigo-950 flex flex-col items-center justify-center p-5">
-      <h1 className="text-5xl font-bold text-white mb-8">Contact Me</h1>
-      <p className="text-lg text-white mb-10 text-center">
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 md:mb-8">Contact Me</h1>
+      <p className="text-base md:text-lg text-white mb-8 text-center px-4">
         Feel free to reach out through any of the platforms below!
       </p>
 
-      <div className="flex gap-10">
+      <div className="flex flex-wrap justify-center gap-5">
         {/* Facebook */}
         <a
           href="https://www.facebook.com/stylo.matiya"
@@ -16,7 +16,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="transform transition-transform duration-300 hover:scale-110 hover:shadow-lg shadow-gray-600 p-4 rounded-full bg-white"
         >
-          <Facebook size={40} className="text-blue-600" />
+          <Facebook size={30} className="text-blue-600" />
         </a>
 
         {/* Instagram */}
@@ -26,7 +26,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="transform transition-transform duration-300 hover:scale-110 hover:shadow-lg shadow-gray-600 p-4 rounded-full bg-white"
         >
-          <Instagram size={40} className="text-pink-600" />
+          <Instagram size={30} className="text-pink-600" />
         </a>
 
         {/* LinkedIn */}
@@ -36,7 +36,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="transform transition-transform duration-300 hover:scale-110 hover:shadow-lg shadow-gray-600 p-4 rounded-full bg-white"
         >
-          <Linkedin size={40} className="text-blue-700" />
+          <Linkedin size={30} className="text-blue-700" />
         </a>
 
         {/* GitHub */}
@@ -46,7 +46,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="transform transition-transform duration-300 hover:scale-110 hover:shadow-lg shadow-gray-600 p-4 rounded-full bg-white"
         >
-          <Github size={40} className="text-gray-900" />
+          <Github size={30} className="text-gray-900" />
         </a>
 
         {/* Gmail */}
@@ -56,7 +56,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="transform transition-transform duration-300 hover:scale-110 hover:shadow-lg shadow-gray-600 p-4 rounded-full bg-white"
         >
-          <Mail className="text-red-600" size={40} />
+          <Mail className="text-red-600" size={30} />
         </a>
       </div>
     </div>
