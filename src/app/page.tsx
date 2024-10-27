@@ -9,9 +9,9 @@ export default function Page() {
           <section className="relative flex items-center justify-center mb-10"> {/* Add margin below for spacing */}
             <div className="w-[400px] h-[400px] rounded-full shadow-[0_20px_40px_rgba(0,0,0,0.5)] bg-white flex items-center justify-center transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_30px_60px_rgba(0,0,0,0.5)]">
               <Image 
-                src="/1.JFIF" // Update with your image path
+                src="/my.jpeg" // Update with your image path
                 alt="Your Image"
-                width={350} // Size should match the dimensions of the circle
+                width={360} // Size should match the dimensions of the circle
                 height={350}
                 className="rounded-full" // Ensures the image is circular
               />
